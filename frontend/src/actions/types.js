@@ -1,0 +1,11 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const GET_DEVICES = "GET_DEVICES";
+export const GET_DEVICE = "GET_DEVICE";
+export const DELETE_DEVICE = "DELETE_DEVICE";
+export const ADD_DEVICE = "ADD_DEVICE";
+
+export const GET_MEASUREMENTS = "GET_MEASUREMENTS";
+export const GET_LIVE_MEASUREMENT = "GET_LIVE_MEASUREMENT ";
+
+
+export const SET_CURRENT_USER = "SET_CURRENT_USER";

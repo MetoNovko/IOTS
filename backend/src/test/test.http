@@ -1,0 +1,37 @@
+GET http://localhost:8080/device
+###
+POST http://localhost:8080/user/register
+Content-Type: application/json
+
+{
+  "username": "usertest",
+  "password": "usertest",
+  "firstName": "user",
+  "lastName": "test",
+  "email": "usertest@usertest.com"
+}
+
+###
+POST http://localhost:8080/user/authenticate
+Content-Type: application/json
+Authorization: Bearer
+
+{
+  "username": "usertest",
+  "password": "usertest"
+}
+
+###
+POST http://localhost:8080/device/addDevice
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZXRvbm92IiwiZXhwIjoxNTg2MjEyNzQ2LCJpYXQiOjE1ODYxOTQ3NDZ9.ukNIyS4BC7yYpctGqy5Gmd_byHa7n2Q4RQ6D0pHftANvG_mUpde39Kb86-z1uy6yWPK2O6yrL--MCix-lRVvKA
+
+{
+  "model": "geiger Counter",
+  "description": "for measuring radiation",
+  "isPublic": false,
+  "longitude": 42.004816,
+  "latitude": 121.409933
+}
+
+###
