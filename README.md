@@ -19,4 +19,4 @@ Technologies used other than Java Spring and React:
 - SSE ( Server-sent events )
 - JWT + Spring Security
 
-![alt text](https://i.ibb.co/F6QsGzY/arch.png "Architecture")
+![alt text](https://i.ibb.co/5Lv5wfG/full.png "Architecture")
